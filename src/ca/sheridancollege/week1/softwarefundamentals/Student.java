@@ -35,6 +35,20 @@ public class Student {
         this.name = name;
     }
 
+    /**
+     * @return the program
+     */
+    public String getProgram() {
+        return program;
+    }
+
+    /**
+     * @param program the program to set
+     */
+    public void setProgram(String program) {
+        this.program = program;
+    }
+
 }
  
    

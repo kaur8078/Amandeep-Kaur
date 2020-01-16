@@ -12,13 +12,15 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private int Id;
+   
 
     /**
      * Get the value of name
      *
      * @return the value of name
      */
-    public String getName() {
+    public String getID() {
         return name;
     }
 
